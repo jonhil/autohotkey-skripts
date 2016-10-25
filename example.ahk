@@ -22,14 +22,16 @@ return
 ;toggles hidden files in windows when pressing WIN + h
 	<#h::
 	RegRead, HiddenFiles_Status, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, Hidden
-	If HiddenFiles_Status = 2 {
+	If HiddenFiles_Status = 2 
+	{
 		Progress, b w200, SHOWING FILES
 		Sleep 1000
 		Progress OFF
 		RegWrite, REG_DWORD, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced, Hidden, 1
 	}
 
-	Else {
+	Else 
+	{
 		Progress, b w200, HIDING FILES
 		Sleep 1000
 		Progress OFF
