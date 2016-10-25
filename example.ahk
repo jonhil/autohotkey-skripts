@@ -1,10 +1,10 @@
 ;send emailadress when pressing a key
-  ![any key]::
+  	![any key]::
 	send [see@example.com]
 return
 
 ;open program when pressing key combination, here ALT with any key
-  ^+[any key]::
+  	^+[any key]::
 	run [any programpath]
 return
 
@@ -12,7 +12,7 @@ return
 ;CTRL + < [left] 
 ;OR 
 ;CTRL + y [right]
-  ^<::
+  	^<::
 	send #{Left}
 return
 	^y::
