@@ -1,5 +1,6 @@
-# autohotkey_tools
-Some skripts working with *.ahk ahkscript.org
+# Codesnippets for AutoHotkey
+Skripts that are workting with [AutoHotkey](https://www.autohotkey.com/)
 
-Some skripty I'm using to make my pc life easier.
+## Info
+Some skripts that I'm using to make my PC life easier.
 Maybe they'll help you to make your's easier too!?
