@@ -1,5 +1,5 @@
 # Codesnippets for AutoHotkey
-Skripts that are workting with [AutoHotkey](https://www.autohotkey.com/)
+Skripts that are working with [AutoHotkey](https://www.autohotkey.com/)
 
 ## Info
 Some skripts that I'm using to make my PC life easier.
