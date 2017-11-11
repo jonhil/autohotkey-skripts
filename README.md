@@ -1,4 +1,4 @@
-# Codesnippets for AutoHotkey
+# Skripts for AutoHotkey
 Skripts that are working with [AutoHotkey](https://www.autohotkey.com/)
 
 ## Info
